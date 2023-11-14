@@ -1,5 +1,6 @@
 const staticCourse = "course-site";
 const assets = [
+  "./",
   "css/style.css",
   "js/app.js",
   "images/c1.jpg"
