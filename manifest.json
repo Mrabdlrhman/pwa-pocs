@@ -1,6 +1,6 @@
 {
-  "name": "DOLF Courses",
-  "short_name": "DOLFCourses",
+  "name": "Courses",
+  "short_name": "DCourses",
   "start_url": "/pwa-pocs",
   "display": "standalone",
   "background_color": "#fdfdfd",
