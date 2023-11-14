@@ -2,11 +2,11 @@ const container = document.querySelector(".container");
 const courses = [
   {
     name: "Course 1",
-    image: "images/c1.jpg"
+    image: "./images/c1.jpg"
   },
    {
     name: "Course 2",
-    image: "images/c1.jpg"
+    image: "./images/c1.jpg"
   }
 
 ];
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", showCourse);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("/serviceWorker.js")
+      .register("./serviceWorker.js")
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
